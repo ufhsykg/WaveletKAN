@@ -4,7 +4,7 @@ This is a lightweight implementation of a PyTorch layer using wavelet transforma
 
 ## Performance
 
-In our testing, when substituting traditional MLP layers with KAN layers in a similar MLP-style architecture, the `WaveletKANLayer` not only performed slightly better than the `FourierKANLayer` in terms of accuracy and learning efficiency but also showed a significant improvement in computational speed. 
+Compared with `FourierKANLayer`, `WaveletKANLayer` has a significant improvement in computational speed, and when we replaced the two in several tests, Wavelet's performance was slightly higher than Fourier's
 
 ## Inspiration
 
