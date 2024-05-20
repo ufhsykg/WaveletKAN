@@ -7,7 +7,7 @@ This is a lightweight implementation of a PyTorch layer using wavelet transforma
 Compared with `FourierKANLayer`, `WaveletKANLayer` has a significant improvement in computational speed, and when we replaced the two in several tests, Wavelet's performance was slightly higher than Fourier's
 
 ```
-Test results on minst
+Test results on MNIST
 
 Train Epoch: 1 [0/60000 (0%)]   Loss: 4.771067
 Train Epoch: 1 [6400/60000 (11%)]       Loss: 0.487188
